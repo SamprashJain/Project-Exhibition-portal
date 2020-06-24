@@ -1,0 +1,38 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-position: cover;
+}
+
+.bgimg{
+	background-image: url(bgimg1.jpg);
+	width: 1366px;
+	height: 650px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.box{
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-40%);
+	width: 350px;
+	padding: 40px;
+	border-radius: 10px;	
+}
+
+.box h3{
+	padding-left: 20px;
+	padding-bottom: 30px;
+	color: black;
+}
+
+.userimg{
+	height: 200px;
+	width: 200px;
+	padding-left: 80px;
+}
